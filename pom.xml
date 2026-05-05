@@ -40,6 +40,30 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct</artifactId>
+			<version>1.6.3</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<annotationProcessorPaths>
+			<path>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+			</path>
+
+			<path>
+				<groupId>org.mapstruct</groupId>
+				<artifactId>mapstruct-processor</artifactId>
+				<version>1.6.3</version>
+			</path>
+		</annotationProcessorPaths>
+
+
+
+
+
+		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
